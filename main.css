@@ -30,47 +30,65 @@
         top: 0;
         left: 0;
      }
-     15% {
+     10% {
         top: 550px;
         left:  600px;
         background-color:  var(--color-1);
      }
   
-     30% {
+     20% {
         top: 350px;
         left: 900px;
         background-color: var(--color-2);
      }
     
-     45% {
+     30% {
         top: 0;
         left: 390px;
         background-color: var(--color-3);
      }
 
-     60% {
-        top: 470px;
+     40% {
+        top: 370px;
         left: 0;
         background-color: var(--color-4);
      }
 
-     75% {
+     50% {
         top: 550px;
-        left: 220px;
+        left: 310px;
         background-color: var(--color-1);
      }
 
-     90% {
-        top: 375px;
+     60% {
+        top: 405px;
         left: 900px;
         background-color: var(--color-2);
      }
 
-     100% {
+     70% {
         top: 0;
-        left: 380px;
+        left: 180px;
         background-color: var(--color-3);
      }
+
+     80% {
+        top: 280px;
+        left: 0;
+        background-color: var(--color-4);
+      }
+
+      90% {
+        top: 550px;
+        left: 400px;
+        background-color: var(--color-1);
+      }
+
+      100% {
+        top: 340px;
+        left: 900px;
+        background-color: var(--color-2);
+      }
      
 }
 
