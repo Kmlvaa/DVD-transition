@@ -1,0 +1,76 @@
+:root {
+    --color-1: rgb(228, 75, 48);
+    --color-2: rgb(71, 174, 214);
+    --color-3: rgb(209, 36, 171);
+    --color-4: rgb(20, 221, 20);
+}
+.dvd {
+    background-color: black;
+    position: relative;
+    margin-inline: auto;
+    width: 1000px;
+    height: 600px;
+    padding: 0;
+}
+
+.inner-div {
+    position: absolute;
+    background-color: white;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 100px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg");
+    background-repeat: no-repeat;
+    animation: moveXY 14s linear 0s infinite alternate forwards;
+}
+
+  @keyframes moveXY {
+     0% {
+        top: 0;
+        left: 0;
+     }
+     15% {
+        top: 550px;
+        left:  600px;
+        background-color:  var(--color-1);
+     }
+  
+     30% {
+        top: 350px;
+        left: 900px;
+        background-color: var(--color-2);
+     }
+    
+     45% {
+        top: 0;
+        left: 390px;
+        background-color: var(--color-3);
+     }
+
+     60% {
+        top: 470px;
+        left: 0;
+        background-color: var(--color-4);
+     }
+
+     75% {
+        top: 550px;
+        left: 220px;
+        background-color: var(--color-1);
+     }
+
+     90% {
+        top: 375px;
+        left: 900px;
+        background-color: var(--color-2);
+     }
+
+     100% {
+        top: 0;
+        left: 380px;
+        background-color: var(--color-3);
+     }
+     
+}
+
